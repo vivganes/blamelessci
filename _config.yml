@@ -10,7 +10,7 @@ locale                   : "en"
 title                    : "Blameless Continuous Integration"
 title_separator          : "-"
 name                     : "Blameless Continuous Integration"
-description              : ""
+description              : "A Small Step Towards Psychological Safety of Agile Teams"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -55,9 +55,9 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "vivek_ganesan"
 facebook:
-  username               :
+  username               : "blamelessci"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -79,8 +79,8 @@ analytics:
 author:
   name             : "Vivek Ganesan"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : 
+  location         : 
   email            :
   uri              :
   bitbucket        :
@@ -173,7 +173,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: blog/page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
