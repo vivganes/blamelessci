@@ -238,7 +238,7 @@ header:
 
 ## Table of Contents
 
-To include an [auto-generated table of contents](http://kramdown.rubyforge.org/converter/html.html#toc) for posts and pages, add the following helper before any actual content in your post or page.
+To include an [auto-generated table of contents](https://kramdown.rubyforge.org/converter/html.html#toc) for posts and pages, add the following helper before any actual content in your post or page.
 
 ```liquid
 {% raw %}{% include toc %}{% endraw %}
@@ -272,7 +272,7 @@ foo:
     url: /link-1-page-url/
 
   - title: "Link 2 Title"
-    url: http://external-link.com
+    url: https://external-link.com
 
   - title: "Link 3 Title"
     url: /link-3-page-url/
